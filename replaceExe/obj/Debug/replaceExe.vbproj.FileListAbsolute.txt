@@ -1,0 +1,11 @@
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\bin\Debug\replaceExe.exe.config
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\bin\Debug\replaceExe.exe
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\bin\Debug\replaceExe.pdb
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\bin\Debug\replaceExe.xml
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\obj\Debug\replaceExe.vbprojResolveAssemblyReference.cache
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\obj\Debug\replaceExe.Form1.resources
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\obj\Debug\replaceExe.Resources.resources
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\obj\Debug\replaceExe.vbproj.GenerateResource.Cache
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\obj\Debug\replaceExe.exe
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\obj\Debug\replaceExe.xml
+\\ss002207\taafrja6$\documents\visual studio 2015\Projects\replaceExe\replaceExe\obj\Debug\replaceExe.pdb
