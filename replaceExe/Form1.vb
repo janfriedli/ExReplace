@@ -1,5 +1,5 @@
 ﻿Imports System.Threading
-
+Imports Microsoft.Win32
 
 Public Class Form1
 
@@ -9,7 +9,7 @@ Public Class Form1
     Public Const F4 As Long = 115
 
     Private Sub ExReplacer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        removeRegKey()
         Timer1.Enabled = True
         Timer1.Interval = 1
 
@@ -86,6 +86,27 @@ Public Class Form1
             txtFilePath.Enabled = True
             txtProcessName.Enabled = True
             Me.Show()
+        End If
+
+    End Sub
+
+    'prevents that the software detects several starts
+    Private Sub removeRegKey()
+        Dim tmpKey As String = "SOFTWARE\Wow6432Node\Policies\Microsoft\Windows\System"
+        Dim foundKey As RegistryKey = Nothing
+        Try
+            foundKey = My.Computer.Registry.LocalMachine.OpenSubKey(tmpKey, True)
+        Catch ex As Exception
+            MsgBox("Run me as Admin! I could not delete an important reg key.")
+            Me.Close()
+        End Try
+
+
+        If Not (foundKey Is Nothing) Then
+            foundKey.DeleteValue("ReWrite Pool")
+            MsgBox("Reg Key successfuly deleted")
+        Else
+            MsgBox("Could not delete reg entry. Dot it manually: " + tmpKey + "\ReWrite Pool")
         End If
 
     End Sub
